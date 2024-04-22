@@ -9,6 +9,18 @@
 *.nar
 hs_err_pid*
 *.log
+LOG_FILE_IS_UNDEFINED
+
+##############################
+## STS
+##############################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 ##############################
 ## Maven
@@ -54,24 +66,19 @@ out/
 ## Eclipse
 ##############################
 .settings/
-bin/
 tmp/
 .metadata
-.classpath
-.project
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
 .loadpath
-.factorypath
 
 ##############################
 ## NetBeans
 ##############################
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
@@ -85,9 +92,19 @@ nb-configuration.xml
 .code-workspace
 
 ##############################
+## Kubernetes
+##############################
+*.kubeconfig
+
+##############################
 ## OS X
 ##############################
 .DS_Store
+
+##############################
+## Windows
+##############################
+Thumbs.db
 
 ##############################
 ## Generic package files
@@ -95,9 +112,3 @@ nb-configuration.xml
 *.zip
 *.tar.gz
 *.rar
-
-
-
-
-
-
