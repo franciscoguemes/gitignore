@@ -8,6 +8,7 @@
 *.ear
 *.nar
 hs_err_pid*
+replay_pid*
 *.log
 LOG_FILE_IS_UNDEFINED
 
@@ -90,6 +91,11 @@ nb-configuration.xml
 ##############################
 .vscode/
 .code-workspace
+
+##############################
+## BlueJ
+##############################
+*.ctxt
 
 ##############################
 ## Kubernetes
