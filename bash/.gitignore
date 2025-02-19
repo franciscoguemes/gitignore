@@ -86,10 +86,17 @@ nbactions.xml
 nb-configuration.xml
 
 ##############################
+## Cursor
+##############################
+.cursor
+
+##############################
 ## Visual Studio Code
 ##############################
-.vscode/
 .code-workspace
+.vscode/
+.history/
+*.vsix
 
 ##############################
 ## BlueJ
